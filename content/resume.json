@@ -1,0 +1,50 @@
+{
+  "name": "Rowen Berndt",
+  "headline": "AI and Machine Learning Internship Candidate",
+  "email": "row.berndt@gmail.com",
+  "phone": "603-867-3325",
+  "github": "https://github.com/rowberndt",
+  "summary": "AI/ML bootcamp participant with Python and PyTorch experience in computer vision and data pipelines. Seeking an internship contributing to model development and evaluation.",
+  "skills": [
+    {"label": "Programming and data", "text": "Python, SQL, NumPy, Pandas, SQLite, Parquet"},
+    {"label": "Machine learning", "text": "PyTorch, CNNs, logistic regression, feature engineering, model evaluation"},
+    {"label": "Tools and systems", "text": "Git, Docker, Jupyter, Matplotlib, OpenCV, REST APIs, WebSockets, HTML/CSS"}
+  ],
+  "projects": [
+    {
+      "name": "Foundations",
+      "subtitle": "Personal research project | Python, PyTorch, SQLite, Parquet, Docker",
+      "bullets": [
+        "Built a market-data pipeline with WebSocket and REST ingestion, a durable SQLite journal, replayable observations, and Parquet exports for model research.",
+        "Implemented a regularized logistic-regression baseline and event-based chronological evaluation, separating future outcomes from model inputs to reduce data leakage."
+      ]
+    },
+    {
+      "name": "Neural Networks and Computer Vision",
+      "subtitle": "Self-directed learning projects | PyTorch, NumPy, OpenCV, Matplotlib",
+      "bullets": [
+        "Built a 10-class MNIST classifier using PyTorch and Adam; the saved notebook records 97.2% test accuracy from one run.",
+        "Implemented a three-layer CNN for cat-versus-dog classification with 50 x 50 grayscale preprocessing, CUDA training, a 10% validation split, and accuracy/loss logging.",
+        "Implemented dense layers, ReLU, stable softmax, and categorical cross-entropy in NumPy using the NNFS spiral dataset to study the forward pass."
+      ]
+    }
+  ],
+  "education": [
+    {"name": "TripleTen", "detail": "AI/ML Bootcamp | In progress", "dates": "Aug 2026 - Present"},
+    {"name": "University of New Hampshire", "detail": "Data Science coursework | One year completed", "dates": "2025 - 2026"}
+  ],
+  "experience": [
+    {
+      "role": "Website Intern",
+      "organization": "Hampton Area Chamber of Commerce",
+      "dates": "Dec 2024 - Mar 2025",
+      "bullets": ["Created and edited web content for chamber members using native web tools, HTML, and CSS; prepared a proposal for future website improvements."]
+    },
+    {
+      "role": "Team Member",
+      "organization": "Engrain Market",
+      "dates": "Jun 2024 - Sep 2024",
+      "bullets": ["Managed the shop independently, balanced inventory and customer service, and helped train new team members."]
+    }
+  ]
+}
